@@ -4,7 +4,8 @@ services:
     name: docuseal
     env: docker
     autoDeploy: false
-    repo: https://github.com/docusealco/docuseal-render.git
+    repo: https://github.com/AlexBTurchyn/docuseal.git
+    branch: fix-redis-localhost
     envVars:
       - key: DATABASE_URL
         fromDatabase:
